@@ -1,0 +1,1 @@
+#!/bin/bashgrep 'Blackjack.*/|Roulette.*\|Texas.*\|0.*AM\|PM' 03* | awk '{print $1 $2" "$3" "$4" "$5" "$6" "$7" "$8}'
