@@ -111,7 +111,7 @@ SSH into the control node and follow the steps below:
 - Update the filebeat-config.yml file to include host "10.2.0.4:9200" and change setup.kibana host to "10.2.0.4:5601"
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
+Common questions
 - Which file is the playbook? filebeat.yml
 - Where do you copy it? /etc/ansible/roles/filebeat.yml
 - Which file do you update to make Ansible run the playbook on a specific machine? Filebeat-config.yml
